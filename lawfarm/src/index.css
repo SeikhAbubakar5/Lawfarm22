@@ -1,0 +1,25 @@
+:root {
+  --color-black:#121212;
+  --color-white:#fff
+}
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+html,
+body{
+  height: 100%;
+}
+body {
+  font-family:'inter' ,sans-serif ;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  line-height: 1.5;
+  overflow: auto;
+}
+img,svg{
+  display: block;
+  max-width: 100%;
+}

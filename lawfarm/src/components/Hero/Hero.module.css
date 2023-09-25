@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  align-items: center;
+  column-gap: 150px;
+}
+.heroText {
+  font-size: 36px;
+  line-height: 95px;
+  font-size: 50px;
+}
+.description {
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 30%;
+}
+.emailText {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+.inputForms form {
+  display: flex;
+}
+.inputForms img {
+    opacity: 0.3;
+}
+.inputForms input {
+  background: black;
+  border: 1px solid black;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 15px;
+  width: 190px;
+  height: 26px;
+}
+.talkButton button {
+  background: rgba(227, 183, 72, 1);
+  width: 137px;
+  height: 62px;
+  border-radius: 43px;
+  font-size: 16px;
+  font-weight: 600;
+}

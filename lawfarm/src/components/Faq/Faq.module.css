@@ -1,0 +1,52 @@
+.faqContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+  font-family: "Inter", sans-serif;
+}
+.aqItem h1 {
+  font-size: 54px;
+  line-height: 74px;
+  font-weight: 600;
+}
+.aqItem p {
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 500;
+  opacity: 30%;
+}
+.faqAccordion {
+  position: relative;
+  top: 250px;
+}
+.faqAccordion h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.faqAccordion p {
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 500;
+  opacity: 30%;
+}
+.accordion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  gap: 30px;
+}
+.accordion h3 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.accordion button{
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    background: rgba(227, 183, 72, 1);
+    cursor: pointer;
+}
